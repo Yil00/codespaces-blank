@@ -1,2 +1,14 @@
-[Bb]in/
-[Oo]bj/
+# Ignorer les dossiers bin et obj
+bin/
+obj/
+
+# Ignorer les fichiers de configuration
+appsettings.Development.json
+appsettings.json
+
+# Ignorer les fichiers temporaires
+*.tmp
+*.log
+
+# Ignorer les fichiers de l'environnement
+.env
